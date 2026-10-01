@@ -178,6 +178,7 @@ const ProjectCard = React.memo(({ project }: { project: ProjectItem }) => {
           // Crucial: unoptimized must be true for animated GIFs to preserve animation
           unoptimized={isGifActive || isExternal}
           className="object-cover transition-transform duration-500 group-hover:scale-105"
+          loading="eager"
         />
 
         {/* Subtle hover indicator badge */}

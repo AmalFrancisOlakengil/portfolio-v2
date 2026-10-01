@@ -19,7 +19,7 @@ export default function Home() {
       title: "Cyborg - SRM Club",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-8 text-xs font-normal md:text-sm text-neutral-200">
             I joined the Cyborg SRM Club as a <span className="text-red-500">Technical Member</span> and progressed to the role of <span className="text-red-500">Technical Lead</span>. During my tenure, I developed and maintained the club’s official website, organized and conducted technical events, delivered sessions as a speaker, and mentored junior members in technical skills and project development. As Technical Lead, I also contributed to planning technical initiatives and guiding the club’s technical team.
 
           </p>
@@ -46,7 +46,7 @@ export default function Home() {
       title: "Geek Coders - Tech Community",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-8 text-xs font-normal md:text-sm text-neutral-200">
            Co-founded Geek Coders and served as <span className="text-red-500">Vice President</span>, contributing to the community’s technical strategy, event planning, and overall growth. Ideated, organized, and conducted technical events and workshops, while also serving as a technical speaker for the community. Collaborated with the Technical Lead to design and develop the community website. Worked closely with the Management Team to analyze participant data from 300–400 attendees using Pandas, supporting data-driven event planning and decision-making.
 
           </p>
@@ -77,7 +77,7 @@ export default function Home() {
       title: "Spartan Matric School",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-8 text-xs font-normal md:text-sm text-neutral-200">
            Completed schooling at Spartan Matriculation School (now known as Spartan Ahava School) through Grade 12, with Physics, Chemistry, Mathematics, and Biology (PCMB) as the higher secondary specialization. Secured 92.2% in Grade 12; Grade 10 was completed during the COVID-19 batch under the applicable all-pass assessment system.
           </p>
                     <div className="grid grid-cols-2 gap-4">
@@ -97,7 +97,7 @@ export default function Home() {
       title: "SRM University",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-8 text-xs font-normal md:text-sm text-neutral-200">
 Pursuing a <span className="text-red-500">B.Tech in Computer Science and Engineering</span> at SRM Institute of Science and Technology, Ramapuram, with a current CGPA of 9.83. Actively involved in technical clubs and student communities, contributing to various technical initiatives and events. Completed a minor project and participated in multiple hackathons, gaining hands-on experience in software development, problem-solving, and collaborative project work.
 
           </p>
@@ -126,7 +126,7 @@ Pursuing a <span className="text-red-500">B.Tech in Computer Science and Enginee
       title: "IIT Madras",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-8 text-xs font-normal md:text-sm text-neutral-200">
          Completed the <span className="text-red-500">Diploma in Data Science and Applications</span> from the IIT Madras BS Degree Program, gaining a strong foundation in data science, machine learning, and deep learning through both theoretical coursework and hands-on projects. Currently pursuing the Diploma in Programming, further strengthening my programming, problem-solving, and software development skills.
 
           </p>
@@ -170,7 +170,7 @@ Pursuing a <span className="text-red-500">B.Tech in Computer Science and Enginee
     <main className="w-full min-h-screen">
       {/* Floating Navigation */}
       <header className="fixed top-4 left-1/2 -translate-x-1/2 z-50">
-        <nav className="flex items-center gap-1 rounded-full border border-border/80 bg-background/80 p-1.5 shadow-lg backdrop-blur-md text-xs sm:text-sm font-medium">
+        <nav className="flex items-center gap-0.5 rounded-full border border-border/80 bg-background/80 p-1.5 shadow-lg backdrop-blur-md text-xs sm:text-sm font-medium">
           <button
             onClick={() => scrollToSection("hero")}
             className="px-3 py-1.5 rounded-full text-foreground/80 hover:text-foreground hover:bg-foreground/5 transition-colors"
